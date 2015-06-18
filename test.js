@@ -6,9 +6,5 @@ if ('serviceWorker' in navigator) {
     }).catch(function(err) {
         console.log('Fuuuuuck!', err);
     });
-
-    self.addEventListener('fetch', function(event) {
-        event.respondWith(new Response("What's good, world!"));
-    });
 }
 
