@@ -13,7 +13,17 @@
                 margin: 0px auto;
             }
         </style>
-        <script type="text/javascript" src="test.js"></script>
+        <script type="text/javascript">
+            if ('serviceworker' in navigator) {
+                navigator.serviceWorker.register('/sw.js').then(function(registration) {
+                    // Registration was successful
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }).catch(function(err) {
+                    // registration failed :(
+                    console.log('ServiceWorker registration failed, fucker: ', err);
+                });
+            }
+        </script>
     </head>
     <body>
         <div class="myClass">Hello world!</div>
