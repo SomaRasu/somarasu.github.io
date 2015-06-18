@@ -1,9 +1,9 @@
-if ('serviceworker' in navigator) {
-    navigator.serviceWorker.register('/sw.js').then(function(registration) {
-        // Registration was successful
-        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js', {
+        scope: '/'
+    }).then(function(reg) {
+        console.log('Yey!', reg);
     }).catch(function(err) {
-        // registration failed :(
-        console.log('ServiceWorker registration failed, fucker: ', err);
+        console.log('Boo!', err);
     });
 }
