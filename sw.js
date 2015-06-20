@@ -1,3 +1,3 @@
-this.addEventListener('fetch', function(event) {
+self.addEventListener('fetch', function(event) {
     console.log("yo, imma worker");
 });
