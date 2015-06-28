@@ -5,8 +5,7 @@ var urlsToCache = [
   '/',
   '/styles/main.css',
   '/scripts/jquery-ui.min.js',
-  '/scripts/jquery-1.11.3.js',
-  '/scripts/botchamania.js'
+  '/scripts/jquery-1.11.3.js'
 ];
 
 self.addEventListener('install', function(event){
