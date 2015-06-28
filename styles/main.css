@@ -7,4 +7,4 @@ html, body { margin: 0; padding: 0 }
     margin: 0px auto;
 }
 
-.mySpan { width: 120px; }
+.mySpan { width: 100%; background-color: #7a7a7a; text-align: center; }
