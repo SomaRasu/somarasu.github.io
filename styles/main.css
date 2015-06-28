@@ -7,4 +7,5 @@ html, body { margin: 0; padding: 0 }
     margin: 0px auto;
 }
 
-.mySpan { width: 100%; background-color: #7a7a7a; text-align: center; }
+.mySpan { position: relative; width: 100%; background-color: #7a7a7a; text-align: center; }
+.myFooter { position: absolute; bottom: 0; background-color: #995c5c; width: 100%; }
