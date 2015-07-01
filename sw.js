@@ -1,6 +1,5 @@
 importScripts('/cache-polyfill-master/index.js');
 
-<<<<<<< HEAD
 var CACHE_NAME = 'my-site-cache-v1',
     urlsToCache = [
         '/',
@@ -8,15 +7,6 @@ var CACHE_NAME = 'my-site-cache-v1',
         '/scripts/jquery-ui.min.js',
         '/scripts/jquery-1.11.3.js'
     ];
-=======
-var CACHE_NAME = 'my-site-cache-v1';
-var urlsToCache = [
-  '/',
-  '/styles/main.css',
-  '/scripts/jquery-ui.min.js',
-  '/scripts/jquery-1.11.3.js'
-];
->>>>>>> origin/master
 
 self.addEventListener('install', function(event){
     event.waitUntil(
@@ -26,7 +16,6 @@ self.addEventListener('install', function(event){
         })
     );
 });
-<<<<<<< HEAD
 
 self.addEventListener('fetch', function(event) {
     event.respondWith(
@@ -40,8 +29,4 @@ self.addEventListener('fetch', function(event) {
             }
         )
     );
-=======
-self.addEventListener('fetch', function(event) {
-    event.respondWith(new Response("What's good with ya world?"));
->>>>>>> origin/master
 });
