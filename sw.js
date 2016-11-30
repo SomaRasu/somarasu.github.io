@@ -15,6 +15,8 @@ self.addEventListener('install', function(event){
             return cache.addAll(urlsToCache);
         })
     );
+<<<<<<< HEAD
+=======
 });
 
 self.addEventListener('fetch', function(event) {
@@ -28,4 +30,5 @@ self.addEventListener('fetch', function(event) {
             }
         )
     );
+>>>>>>> origin/master
 });
