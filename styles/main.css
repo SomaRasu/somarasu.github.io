@@ -1,11 +1,28 @@
-html, body { margin: 0; padding: 0 }
-.myClass {
-    width: 480px;
-    height: 640px;
-    background: #1ca;
-    color: white;
-    margin: 0px auto;
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.intro img {
+    display: block;
+    filter: drop-shadow(1px 1px 1px #000);
+    margin: 0 auto;
+}
+.intro div:first-child {
+    border: 1px solid red;
+    margin: 30px auto auto auto;
+    width: 50%;
 }
 
-.mySpan { position: relative; width: 100%; background-color: #7a7a7a; text-align: center; }
-.myFooter { position: absolute; width: inherit; bottom: 0; background-color: #995c5c; }
+.intro-copy header {
+    font-family: "Oswald", "Open Sans", sans-serif;
+}
+.intro-copy {
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+}
