@@ -8,21 +8,29 @@ html, body {
     margin: 0;
     padding: 0;
 }
-.intro img {
-    display: block;
-    filter: drop-shadow(1px 1px 1px #000);
-    margin: 0 auto;
-}
+
 .intro div:first-child {
-    border: 1px solid red;
-    margin: 30px auto auto auto;
-    width: 50%;
+    margin: 25px auto -33px auto;
+    width: 55%;
 }
 
-.intro-copy header {
-    font-family: "Oswald", "Open Sans", sans-serif;
+.intro img {
+    display: block;
+    margin: 0 auto;
 }
 .intro-copy {
     font-family: "Open Sans", sans-serif;
     font-size: 32px;
+    margin: 50px auto auto auto;
+}
+
+.intro-copy header {
+    font-family: "Oswald", "Open Sans", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 73px;
+}
+
+.intro-copy header p:last-child {
+    font-size: 24px;
 }
