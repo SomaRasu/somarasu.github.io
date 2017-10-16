@@ -8,7 +8,6 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
 .intro div:first-child {
     margin: 25px auto -33px auto;
     width: 55%;
@@ -23,7 +22,6 @@ html, body {
     font-size: 32px;
     margin: 50px auto auto auto;
 }
-
 .intro-copy header {
     font-family: "Oswald", "Open Sans", sans-serif;
     text-align: center;
@@ -33,15 +31,10 @@ html, body {
 p {
     font-size: 28px;
 }
-.main {
-    position: relative;
-    top: 80px;
-}
 .divider {
-    width: 406px;
-    text-align: center;
     margin: 75px auto auto auto;
     opacity: 0.6;
+    text-align: center;
 }
 
 i.fa.fa-diamond {
@@ -68,24 +61,32 @@ i.fa.fa-diamond {
     width: 100%;
 }
 .stockton {
-    max-width: 1016px;
-    width: 78%;
+    max-width: 1080px;
+    width: 100%;
 }
-
-.stockton p {
+.stockton span {
     display: block;
     font-size: 14px;
 }
-.tech {
+.tech, .lp_samples {
     margin: 0 auto;
     text-align: center;
     width: 85%;
 }
-
-.tech > div {
+.tech > div,
+.lp_samples > div {
     display: inline-block;
-    max-width: 190px;
+    max-width: 150px;
+    width: 18%;
     margin: 18px;
     vertical-align: top;
-    width: 18%;
+}
+.lp_samples > div {
+    width: 33%;
+    height: 500px;
+    display: inline-block;
+    max-width: 390px;
+}
+.sampleone {
+    background: url('../imgs/main/samples/view/pd200i2.png') no-repeat center top/contain;
 }
