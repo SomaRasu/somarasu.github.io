@@ -30,7 +30,62 @@ html, body {
     text-transform: uppercase;
     font-size: 73px;
 }
+p {
+    font-size: 28px;
+}
+.main {
+    position: relative;
+    top: 80px;
+}
+.divider {
+    width: 406px;
+    text-align: center;
+    margin: 75px auto auto auto;
+    opacity: 0.6;
+}
 
-.intro-copy header p:last-child {
-    font-size: 24px;
+i.fa.fa-diamond {
+    font-size: 26px;
+    vertical-align: text-bottom;
+    position: relative;
+    margin: auto 5px auto 5px;
+    bottom: 16px;
+}
+.main hr {
+    background-color: #998972;
+    display: inline-block;
+    height: 8px;
+    width: 115px;
+}
+
+.me, .stockton {
+    margin: 90px auto auto auto;
+    text-align: center;
+    font-size: 28px;
+}
+.me {
+    max-width: 400px;
+    width: 100%;
+}
+.stockton {
+    max-width: 1016px;
+    width: 78%;
+}
+
+.stockton p {
+    display: block;
+    font-size: 14px;
+}
+.tech {
+    margin: 0 auto;
+    text-align: center;
+    width: 85%;
+}
+
+.tech > div {
+    display: inline-block;
+    max-width: 190px;
+    margin: 18px;
+    vertical-align: top;
+    width: 18%;
 }
