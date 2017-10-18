@@ -76,17 +76,39 @@ i.fa.fa-diamond {
 .tech > div,
 .lp_samples > div {
     display: inline-block;
-    max-width: 150px;
-    width: 18%;
     margin: 18px;
     vertical-align: top;
 }
-.lp_samples > div {
-    width: 33%;
-    height: 500px;
-    display: inline-block;
-    max-width: 390px;
+.tech > div {
+    max-width: 150px;
+    width: 18%;
 }
-.sampleone {
-    background: url('../imgs/main/samples/view/pd200i2.png') no-repeat center top/contain;
+.lp_samples {
+    width: 100%;
+    max-width: 1480px;
+}
+.lp_samples > div {
+    max-width: 500px;
+    height: 400px;
+    float: left;
+    width: 33.33%;
+    margin: 0 auto auto auto;
+}
+.lp_samples > div:first-child {
+    background: url(../imgs/main/samples/view/ah216.png) no-repeat center top/contain;
+}
+.lp_samples > div:nth-child(2) {
+    background: url(../imgs/main/samples/view/dm173.PNG) no-repeat center top/contain;
+}
+.lp_samples > div:nth-child(3) {
+    background: url(../imgs/main/samples/view/hook19710.png) no-repeat center top/contain;
+}
+.lp_samples > div:nth-child(4) {
+    background: url(../imgs/main/samples/view/mh2021.png) no-repeat center top/contain;
+}
+.lp_samples > div:nth-child(5) {
+    background: url(../imgs/main/samples/view/lmc218.png) no-repeat center top/contain;
+}
+.lp_samples > div:nth-child(6) {
+    background: url(../imgs/main/samples/view/ut252.png) no-repeat center top/contain;
 }
