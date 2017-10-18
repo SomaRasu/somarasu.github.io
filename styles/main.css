@@ -8,7 +8,6 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
 .intro div:first-child {
     margin: 25px auto -33px auto;
     width: 55%;
@@ -23,7 +22,6 @@ html, body {
     font-size: 32px;
     margin: 50px auto auto auto;
 }
-
 .intro-copy header {
     font-family: "Oswald", "Open Sans", sans-serif;
     text-align: center;
@@ -33,15 +31,10 @@ html, body {
 p {
     font-size: 28px;
 }
-.main {
-    position: relative;
-    top: 80px;
-}
 .divider {
-    width: 406px;
-    text-align: center;
     margin: 75px auto auto auto;
     opacity: 0.6;
+    text-align: center;
 }
 
 i.fa.fa-diamond {
@@ -68,24 +61,54 @@ i.fa.fa-diamond {
     width: 100%;
 }
 .stockton {
-    max-width: 1016px;
-    width: 78%;
+    max-width: 1080px;
+    width: 100%;
 }
-
-.stockton p {
+.stockton span {
     display: block;
     font-size: 14px;
 }
-.tech {
+.tech, .lp_samples {
     margin: 0 auto;
     text-align: center;
     width: 85%;
 }
-
-.tech > div {
+.tech > div,
+.lp_samples > div {
     display: inline-block;
-    max-width: 190px;
     margin: 18px;
     vertical-align: top;
+}
+.tech > div {
+    max-width: 150px;
     width: 18%;
+}
+.lp_samples {
+    width: 100%;
+    max-width: 1480px;
+}
+.lp_samples > div {
+    max-width: 500px;
+    height: 400px;
+    float: left;
+    width: 33.33%;
+    margin: 0 auto auto auto;
+}
+.lp_samples > div:first-child {
+    background: url(../imgs/main/samples/view/ah216.png) no-repeat center top/contain;
+}
+.lp_samples > div:nth-child(2) {
+    background: url(../imgs/main/samples/view/dm173.PNG) no-repeat center top/contain;
+}
+.lp_samples > div:nth-child(3) {
+    background: url(../imgs/main/samples/view/hook19710.png) no-repeat center top/contain;
+}
+.lp_samples > div:nth-child(4) {
+    background: url(../imgs/main/samples/view/mh2021.png) no-repeat center top/contain;
+}
+.lp_samples > div:nth-child(5) {
+    background: url(../imgs/main/samples/view/lmc218.png) no-repeat center top/contain;
+}
+.lp_samples > div:nth-child(6) {
+    background: url(../imgs/main/samples/view/ut252.png) no-repeat center top/contain;
 }
