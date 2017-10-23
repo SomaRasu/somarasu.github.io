@@ -51,7 +51,7 @@ i.fa.fa-diamond {
     width: 115px;
 }
 
-.me, .stockton {
+.me, .stockton, .contact {
     margin: 90px auto auto auto;
     text-align: center;
     font-size: 28px;
@@ -111,4 +111,14 @@ i.fa.fa-diamond {
 }
 .lp_samples > div:nth-child(6) {
     background: url(../imgs/main/samples/view/ut252.png) no-repeat center top/contain;
+}
+.contact a {
+    text-decoration: underline;
+}
+.contact span {
+    display: block;
+    font-size: 18px;
+}
+.contact img {
+    max-width: 500px;
 }
